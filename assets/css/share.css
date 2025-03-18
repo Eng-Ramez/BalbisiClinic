@@ -1,0 +1,157 @@
+.navbar{
+  background-color: #fff !important;
+  transition: all 1s ease;
+  z-index: 10;
+}
+.navbar .container{
+  width: 100%;
+
+}
+
+.header_left h1{
+  font-size: 22px;
+  color: var(--mainColor);
+  font-family: var(--mainfont);
+  font-weight: bold;
+}
+.nav-nav{
+  position: sticky;
+  top: 0;
+  box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.4);
+}
+.navbar-brand{
+  color: var(--mainColor);
+  font-weight: bold;
+  transition: all 0.6s ease;
+}
+.active{
+  color:#1B7F85 !important;
+}
+.nav-item a:hover{
+  color:#1B7F85 !important;
+  
+  
+}
+.navbar {
+  min-height: 64px; /* Adjust the height */
+  padding: 15px 20px;
+  background-color: #f8f9fa !important; /* Light background */
+}
+
+.navbar-nav {
+  font-size: 20px; /* Increase the font size for better visibility */
+}
+
+.header_left img {
+  height: 50px; /* Ensure the logo is visible */
+}
+@media (max-width:700px) 
+{
+ .navbar .container{
+   width: 100%;
+ 
+ }
+
+}
+/*footer*/
+.footer {
+    background: #1B7F85;;
+    color: #fff;
+    padding: 40px ;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-section {
+    margin: 20px;
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .footer p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: white;
+  
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin: 8px 0;
+  }
+  
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .footer ul li a:hover {
+    color: black;
+  }
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #bbb;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #1e90ff;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    font-size: 14px;
+    color: #bbb;
+  }
+
+/* fist page*/
+  #backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #1B7F85;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* إخفاء الزر افتراضيًا */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  #backToTop:hover {
+    background-color: #155e61;
+    transform: scale(1.1);
+  }
+  

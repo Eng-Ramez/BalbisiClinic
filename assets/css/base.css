@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --maincolor:rgba(102, 102, 102, 1);
+    --subcolor: rgba(34, 34, 34, 1);
+    --mainfont: "Karla", sans-serif;
+    --subfont: "Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:calc(100% - 200px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+
+}
